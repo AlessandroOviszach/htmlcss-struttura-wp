@@ -13,18 +13,7 @@ body {
     background-color: #e1d67a;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Utilities */
-
 .content {
     height: 50px;
     background-color: #abcfe7;
@@ -36,6 +25,7 @@ body {
     clear: both;
 }
 
+/* general placement */
 .m-25 {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -45,6 +35,7 @@ body {
     padding: 0 10px;
 }
 
+/* dimensions general content sec. */
 .sidebar-sx,
 .sidebar-dx {
     float: left;
