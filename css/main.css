@@ -7,7 +7,11 @@
 }
 
 /* Tags */
-
+body {
+    width: 70%;
+    margin: 10px auto;
+    background-color: #e1d67a;
+}
 
 
 
@@ -21,14 +25,36 @@
 
 /* Utilities */
 
+.content {
+    height: 50px;
+    background-color: #abcfe7;
+}
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
+.m-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
+.p-15 {
+    padding: 0 10px;
+}
 
+.sidebar-sx,
+.sidebar-dx {
+    float: left;
+    width: 20%;
+}
 
-
-
-
+.central-content {
+    float: left;
+    width: 60%;
+}
 
 
 
